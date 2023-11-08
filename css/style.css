@@ -18,3 +18,7 @@ body{
     max-width: 550px;
     border-radius: 15px;
 }
+/*Styling for app h1*/
+.app h1{
+    color: #cf9494;
+}
