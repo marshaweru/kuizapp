@@ -5,5 +5,16 @@
     font-family: 'Poppins', sans-serif;
 }
 /*Above code is the boiler plate CSS for all my apps*/
+/*Styling for body*/
+body{
+    background: bisque;
+}
 /*Styling for class named app*/
-.app
+.app{
+    width: 90%;
+    padding: 32px;
+    margin: 100px auto;
+    background: #fff;
+    max-width: 550px;
+    border-radius: 15px;
+}
