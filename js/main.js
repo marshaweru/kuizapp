@@ -58,5 +58,11 @@ function showQuestion(){
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ", " + currentQuestion.question;
     //Dsiplay answers
+    currentQuestion.answers.forEach(answer => {
+        const button = document.createElement("button");
+        button.innerHTML = answer.text;
+        button.classList.add("btn");
+        answerButton.appendChild(button);
+    });
 }
-   
+   //Call startquiz function to display output
