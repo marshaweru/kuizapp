@@ -39,4 +39,7 @@ const questions = {
 };
 //Add variables for the 3 elements
 const questionElement = document.getElementById("question");
-const questionElement = document.getElementById("answer-button")
+const answerButton = document.getElementById("answer-button");
+const nextButton = document.getElementById("next-btn");
+
+//Variables for question index and score
