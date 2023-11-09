@@ -45,7 +45,7 @@ body{
     border: 2px solid #222;
     padding: 12px;
     font-weight: 500;
-
+    transition: all 0.3s;
     text-align: left;
     border-radius: 5px;
     cursor: pointer;
