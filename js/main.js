@@ -42,4 +42,21 @@ const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-button");
 const nextButton = document.getElementById("next-btn");
 
+let currentQuestionIndex = 0;
+let score = 0;
+
 //Variables for question index and score
+function startQuiz(){
+    currentQuestionIndex = 0;
+    score = 0;
+    nextButton.innerHTML = "Next";
+    showQuestion();
+}
+//Create showQuestion function
+function showQuestion(){
+    let currentQuestion = questions[currentQuestionIndex];
+    let questionNo = currentQuestionIndex + 1;
+    questionElement.innerHTML = questionNo + ", " + currentQuestion.question;
+    //Dsiplay answers
+}
+   
