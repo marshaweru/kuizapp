@@ -31,3 +31,27 @@ body{
     padding: 20px 0;
 }
 /*Styling for quiz h2*/
+.quiz h2{
+    color: #000;
+    font-size: 12px;
+    font-weight: 550;
+}
+/*CSS for btn*/
+.btn{
+    margin: 10p 0;
+    width: 100%;
+    color: #222;
+    background: #fff;
+    border: 2px solid #222;
+    padding: 12px;
+    font-weight: 500;
+
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/*Add hover effect*/
+.btn:hover{
+    background: #000;
+    color: #fff;
+}
