@@ -47,7 +47,7 @@ body{
     font-weight: 500;
     transition: all 0.3s;
     text-align: left;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
 }
 /*Add hover effect*/
