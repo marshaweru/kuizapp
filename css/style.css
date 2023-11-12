@@ -53,7 +53,7 @@ body{
 /*Add hover effect*/
 .btn:hover{
     background: #000;
-    color: #fff;
+    color: #daa1a1;
 }
 /*CSS for next button id*/
 #next-btn{
