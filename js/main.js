@@ -95,4 +95,12 @@ function selectAnswer(e){//Define selectAnswer function
     nextButton.style.display = "block";//Display next button to go to next question
 
 }
+
+nextButton.addEventListener("click", ()=>{//Add function for next button
+    if(currentQuestionIndex < questions.length){
+        handleNextButton();
+    }else{
+
+    }
+})
     startQuiz();
