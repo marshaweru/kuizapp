@@ -77,5 +77,7 @@ function showQuestion(){
             answerButtons.removeChild(answerButtons.firstChild);//Will remove all previous answers
         }
     }
+function selectAnswer(e){//Define selectAnswer function
 
+}
     startQuiz();
