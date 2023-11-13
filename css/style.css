@@ -69,3 +69,10 @@ body{
     cursor: pointer;
 }
 /*Change color for correct class*/
+.correct{
+    background: darkcyan;
+}
+/*Add background for incorrect class name*/
+.incorrect{
+    background: rgb(226, 105, 105);
+}
