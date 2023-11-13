@@ -1,5 +1,5 @@
 //Set the questions
-const questions = {
+const questions = []
     {
         question: "What's the best sport in the world?",
         answers: [
