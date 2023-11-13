@@ -95,8 +95,18 @@ function selectAnswer(e){//Define selectAnswer function
     nextButton.style.display = "block";//Display next button to go to next question
 
 }
+function showScore(){//define showSore function
 
-function//Define handleNextButton function
+}
+
+function handleNextButton(){
+    currentQuestionIndex++;
+    if(currentQuestionIndex < questions.length){
+        showQuestion();
+    }else{
+        showScore();
+    }
+};//Define handleNextButton function
 
 nextButton.addEventListener("click", ()=>{//Add function for next button
     if(currentQuestionIndex < questions.length){
