@@ -85,6 +85,13 @@ function selectAnswer(e){//Define selectAnswer function
     }else{
         selectedBtn.classList.add("incorrect");
     }
+    Array.from(answerButtons.children).forEach(button => {
+        if(button.dataset.correct === "true"){
+            button.classList.add("correct");
+        }
+        button.disabled = true;//Disble click after selecting one answer, when we choose wrong answer it should automatically highlight right answer
+    });
+    nextButton.style.display = "block";//Display next button to go to next question
+
 }
     startQuiz();
-//Disble click after selecting one answer, when we choose wrong answer it should automatically highlight right answer
