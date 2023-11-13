@@ -64,7 +64,10 @@ function showQuestion(){
         button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
-        button.addEventListener()//Add click function
+        if(answer.correct){//Add true or false in data set correct
+            button.dataset.correct = answer.correct
+        }
+        button.addEventListener("click", selectAnswer);//Add click function
     });
 }
    //Call startquiz function to display output
