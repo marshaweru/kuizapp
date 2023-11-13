@@ -87,3 +87,4 @@ function selectAnswer(e){//Define selectAnswer function
     }
 }
     startQuiz();
+//Disble click after selecting one answer, when we choose wrong answer it should automatically highlight right answer
