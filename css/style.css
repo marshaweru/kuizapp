@@ -51,7 +51,7 @@ body{
     cursor: pointer;
 }
 /*Add hover effect*/
-.btn:hover{
+.btn:hover:not([disabled]){/*Hover effect will work when button is not disabled*/
     background: #292727;
     color: #daa1a1;
 }
