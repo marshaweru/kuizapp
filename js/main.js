@@ -36,7 +36,7 @@ const questions = []
             { text: "Emirates Airlines", correct: false},
         ]
     }
-};
+];
 //Add variables for the 3 elements
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-button");
