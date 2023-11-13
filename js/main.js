@@ -3,7 +3,7 @@ const questions = []
     {
         question: "What's the best sport in the world?",
         answers: [
-            { text: "Swimming", correct: fasle},
+            { text: "Swimming", correct: false},
             { text: "Rugby", correct: true},
             { text: "Baskeball", correct: false},
             { text: "Football", correct: false},
@@ -12,7 +12,7 @@ const questions = []
     {
         question: "What's the fastest aircraft in the world?",
         answers: [
-            { text: "777", correct: fasle},
+            { text: "777", correct: false},
             { text: "SR-17", correct: true},
             { text: "A380", correct: false},
             { text: "F-16", correct: false},
@@ -30,7 +30,7 @@ const questions = []
     {
         question: "What's the best ariline in the world?",
         answers: [
-            { text: "Kenya Airways", correct: fasle},
+            { text: "Kenya Airways", correct: false},
             { text: "Qatar Airways", correct: false},
             { text: "Singapore Airlines", correct: true},
             { text: "Emirates Airlines", correct: false},
