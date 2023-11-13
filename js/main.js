@@ -97,8 +97,9 @@ function selectAnswer(e){//Define selectAnswer function
 }
 function showScore(){//define showSore function
     resetState();
-    questionElement.innerHTML = `You scored`
-
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
+    nextButton.innerHTML = "Play Again";
+    nextButton.style.display = 'block';
 }
 
 function handleNextButton(){
@@ -117,4 +118,4 @@ nextButton.addEventListener("click", ()=>{//Add function for next button
         startQuiz();
     }
 });
-    startQuiz();
+
