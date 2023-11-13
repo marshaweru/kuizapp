@@ -69,7 +69,9 @@ function showQuestion(){
    //Call startquiz function to display output
     function resetState(){//Define this function
         nextButton.style.display = "none";
-        while(answerButtons)
+        while(answerButtons.firstChild){
+            answerButtons.removeChild(answerButtons.firstChild);//Will remove all previous answers
+        }
     }
 
     startQuiz();
