@@ -54,6 +54,7 @@ function startQuiz(){
 }
 //Create showQuestion function
 function showQuestion(){
+    resetState();//Display previous question and answer
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + ", " + currentQuestion.question;
