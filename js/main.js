@@ -67,3 +67,6 @@ function showQuestion(){
     });
 }
    //Call startquiz function to display output
+    function resetState(){//Define this function
+
+    }
