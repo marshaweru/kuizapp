@@ -64,6 +64,7 @@ function showQuestion(){
         button.innerHTML = answer.text;
         button.classList.add("btn");
         answerButtons.appendChild(button);
+        button.addEventListener()//Add click function
     });
 }
    //Call startquiz function to display output
