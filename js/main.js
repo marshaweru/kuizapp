@@ -96,6 +96,8 @@ function selectAnswer(e){//Define selectAnswer function
 
 }
 function showScore(){//define showSore function
+    resetState();
+    questionElement.innerHTML = `You scored`
 
 }
 
