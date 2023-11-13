@@ -39,7 +39,7 @@ const questions = []
 ];
 //Add variables for the 3 elements
 const questionElement = document.getElementById("question");
-const answerButton = document.getElementById("answer-button");
+const answerButtons = document.getElementById("answer-button");
 const nextButton = document.getElementById("next-btn");
 
 let currentQuestionIndex = 0;
@@ -68,5 +68,8 @@ function showQuestion(){
 }
    //Call startquiz function to display output
     function resetState(){//Define this function
-
+        nextButton.style.display = "none";
+        while(answerButtons)
     }
+
+    startQuiz();
