@@ -96,11 +96,13 @@ function selectAnswer(e){//Define selectAnswer function
 
 }
 
+function//Define handleNextButton function
+
 nextButton.addEventListener("click", ()=>{//Add function for next button
     if(currentQuestionIndex < questions.length){
         handleNextButton();
     }else{
-
+        startQuiz();
     }
-})
+});
     startQuiz();
