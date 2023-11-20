@@ -52,7 +52,7 @@ body{
 }
 /*Add hover effect*/
 .btn:hover:not([disabled]){/*Hover effect will work when button is not disabled*/
-    background: #292727;
+    background: #555151;
     color: #daa1a1;
 }
 .btn:disabled{/*Only click on next button after clicking on answer*/
