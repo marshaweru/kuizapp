@@ -61,7 +61,7 @@ body{
 /*CSS for next button id*/
 #next-btn{
     border: 0;
-    margin: 21px auto 0;
+    margin: 20px auto 0;
     width: 150px;
     display: none;
     font-weight: 550;
