@@ -73,7 +73,7 @@ body{
 }
 /*Change color for correct class*/
 .correct{
-    background: rgb(89, 89, 236);
+    background: rgb(148, 148, 228);
 }
 /*Add background for incorrect class name*/
 .incorrect{
